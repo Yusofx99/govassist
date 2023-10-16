@@ -1,0 +1,190 @@
+.hero-section {
+  position: relative;
+  background-image: url("../../assets/images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding-top: 7rem;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+}
+
+.left h1 {
+  font-size: 5.2rem;
+  color: white;
+  margin-bottom: 4.8rem;
+}
+
+.left h1 span {
+  color: #4ac97d;
+}
+
+.deadline-container {
+  display: flex;
+  color: #ffffff;
+  gap: 1.2rem;
+}
+
+.deadline-container .rectan {
+  width: 12px;
+  background: #d9d9d9;
+}
+
+.text-time-container {
+  display: grid;
+  grid-template-columns: 1.7fr 4fr;
+  gap: 4rem;
+}
+
+.text-time-container p {
+  font-size: 1.8rem;
+  align-self: center;
+}
+
+.time-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.time-container div {
+  /* padding: 1rem 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background: #080f1a;
+  padding: 2rem 0;
+}
+
+.time-container div p:first-child {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: -0.5rem;
+}
+
+.time-container div p:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.infos-container {
+  margin-top: 3.2rem;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infos-logo {
+  width: 22px;
+  height: 22px;
+  margin-right: 1.2rem;
+}
+
+.infos-container div {
+  display: flex;
+  align-content: center;
+}
+
+.right {
+  background-color: white;
+  border-radius: 60px;
+  padding: 4rem;
+}
+
+.check {
+  display: flex;
+}
+
+.rightLogo {
+  width: 18px;
+  height: 18px;
+}
+
+.check p {
+  color: #4ac97d;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-left: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.right h2 {
+  font-size: 3.6rem;
+  color: rgba(1, 38, 74, 1);
+  margin-bottom: 1.8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+form div:nth-child(-n + 2) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.right form div input {
+  padding: 1.2rem;
+  background-color: #f3f3f3;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.right form div input::placeholder {
+  color: #d2d2d2;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.form-icon-container {
+  position: relative;
+}
+
+.form-icon {
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  stroke: #080f1a;
+  width: 12px;
+  height: 12px;
+}
+
+.check-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.check-container input {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.check-container label {
+  font-size: 1.2rem;
+  color: #01264a;
+  font-weight: 500;
+  margin-left: -2.5rem;
+}

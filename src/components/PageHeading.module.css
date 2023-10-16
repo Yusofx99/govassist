@@ -1,0 +1,17 @@
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.heading {
+  font-weight: 300;
+  color: #4ac97d;
+  font-size: 3.2rem;
+}
+
+.heading-icon {
+  width: 24px;
+  height: 24px;
+}

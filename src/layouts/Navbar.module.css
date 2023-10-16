@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-two);
+  border-radius: 24px;
+  padding: 0 3rem;
+  margin: 0 4rem 4rem 4rem;
+  height: 80px;
+}
+
+.right {
+  display: flex;
+  gap: 4rem;
+  color: white;
+}
+
+.logo {
+  width: 160px;
+}
+
+.language-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flag {
+  width: 22px;
+  height: 22px;
+}
+
+.language {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.down {
+  width: 10px;
+  height: 10px;
+}

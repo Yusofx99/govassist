@@ -1,0 +1,13 @@
+.icon-text-container {
+  display: flex;
+  color: #01264a;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 1.2rem;
+}

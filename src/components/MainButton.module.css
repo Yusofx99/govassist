@@ -1,0 +1,23 @@
+.orange,
+.green {
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.orange:hover,
+.green:hover {
+  cursor: pointer;
+}
+
+.green {
+  background-color: #4ac97d;
+}
+
+.orange {
+  background-color: #fd816b;
+}
